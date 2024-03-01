@@ -1,11 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Mulish", sans-serif;
+:root {
+  --orange-color: #ff5400;
+  --black-color: #131318;
+  --white-color: #fff;
+  --dark-rgb: rgba(19, 19, 24, 0.7);
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/*----------------- Header Section start-------------- */
+
+header {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo-container {
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.logo-span {
+  color: var(--orange-color);
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list li:nth-child(1) > a {
+  color: var(--orange-color);
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #223344;
+}
+
+.nav-icon{
+    display: none;
+}
+
+/* -----------------Explore Section------------- */
+
+main {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.explore-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/Group-13.png);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.explore-container-text {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: var(--white-color);
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.explore-container-text h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  padding: 20px 0px;
+}
+
+.explore-container-text p {
+  padding: 20px 0px;
+}
+
+.explore-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 14px;
+  margin: 0px 180px;
+  border-radius: 8px;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.explore-container-text input {
+  border-radius: 8px;
+  padding: 16px 30px;
+  border: none;
+}
+
+.explore-input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange-color);
+  padding: 16px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.explore-input-btn i {
+  margin-right: 10px;
 }
