@@ -1,3 +1,5 @@
+/* Mobile Device Responsive */
+
 @media (max-width: 600px) {
   /*----------------- Header Section start-------------- */
   header {
@@ -13,6 +15,9 @@
   }
 
   /* -----------------Explore Section------------- */
+  main{
+    padding: 0px 25px;
+  }
   .explore-container-text {
     padding: 20px 0px;
   }
@@ -58,12 +63,53 @@
   .explore-input-btn i {
     margin-right: 8px;
   }
+
+  /*-------------------- Popular Tour Section-------------- */
+
+  .popular-tour-container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .tour-text{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .tour-list-items{
+    margin-left: 20px;
+  }
+  
+  .tour-img{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .tour-img img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
 }
+
+
+
+/*------------->> Mobile Device Responsive<<---------------- */
+
+
 
 @media (min-width: 601px) and (max-width: 992px) {
   header {
     padding: 0px 20px;
   }
+
+  /* -----------------Explore Section------------- */
+
+  main {
+    padding: 0px 20px;
+  }
+
   .explore-container-text {
     padding: 20px 0px;
   }
@@ -108,4 +154,34 @@
   .explore-input-btn i {
     margin-right: 8px;
   }
+
+    /*-------------------- Popular Tour Section-------------- */
+
+    
+    .popular-tour-container {
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  
+    .tour-text{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .tour-list-items{
+      margin-left: 20px;
+    }
+    
+    .tour-img{
+      width: 100%;
+      margin: auto;
+    }
+    
+    .tour-img img{
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
 }

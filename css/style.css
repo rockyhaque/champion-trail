@@ -21,6 +21,20 @@ body {
   display: none;
 }
 
+.shared-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange-color);
+  padding: 16px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: var(--white-color);
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
 /*----------------- Header Section start-------------- */
 
 header {
@@ -63,8 +77,8 @@ header {
   color: #223344;
 }
 
-.nav-icon{
-    display: none;
+.nav-icon {
+  display: none;
 }
 
 /* -----------------Explore Section------------- */
@@ -89,9 +103,6 @@ main {
 }
 
 .explore-container-text {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
   color: var(--white-color);
   text-align: center;
   padding: 100px 0px;
@@ -138,3 +149,40 @@ main {
 .explore-input-btn i {
   margin-right: 10px;
 }
+
+/*-------------------- Popular Tour Section-------------- */
+
+.popular-tour-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.tour-text{
+  width: 50%;
+  margin-bottom: 30px;
+  
+}
+
+.tour-text div{
+  margin-top: 20px;
+}
+
+.tour-text p{
+  line-height: 40px;
+}
+
+.tour-list-items{
+  margin-left: 28px;
+}
+
+.tour-img{
+  width: 50%;
+}
+
+.tour-img img{
+  height: 550px;
+  width: auto;
+}
+
