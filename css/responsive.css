@@ -132,6 +132,51 @@
     width: auto;
     margin: 0px 25px;
   }
+
+  /* ------------Perfect Place Section------------ */
+
+
+
+  /* ------------Newsletter Section------------ */
+  .newsletter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-form {
+    flex: 100%;
+    padding: 20px;
+  }
+
+  .newsletter-img{
+    flex: 100%;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+
+  .newsletter-img img{
+    height: 250px;
+    width: auto;
+  }
+
+  .input-one{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-btn{
+    margin-top: 20px;
+    padding: 12px 16px;
+  }
+
+  .discount{
+    bottom: 115px;
+    left: 120px;
+  }
+
+
+
   
 
 
@@ -223,5 +268,48 @@
     border-radius: 15px;
   }
 
-  /* ------------------Choose Us Section---------------------- */
+  /* ------------Perfect Place Section------------ */
+
+
+
+
+  /* ------------Newsletter Section------------ */
+
+
+  .newsletter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-form {
+    flex: 100%;
+    padding: 20px;
+  }
+
+  .newsletter-img{
+    flex: 100%;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+
+  .newsletter-img img{
+    height: 250px;
+    width: auto;
+  }
+
+  .input-one{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-btn{
+    margin-top: 20px;
+    padding: 12px 16px;
+  }
+
+  .discount{
+    bottom: 115px;
+    left: 120px;
+  }
 }

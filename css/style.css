@@ -299,11 +299,12 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .choose-card-one {
   background-color: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.2);
   border-radius: 16px;
   padding: 20px;
 }
@@ -314,7 +315,9 @@ main {
 
 .choose-card-two {
   background-color: rgba(41, 206, 246, 0.05);
+  border: 1px solid rgba(41, 206, 246, 0.2);
   border-radius: 16px;
+  margin-top: 8px;
 }
 
 .choose-row-two {
@@ -325,5 +328,98 @@ main {
 
 .choose-card-three {
   background-color: rgba(233, 68, 68, 0.05);
+  border: 1px solid rgba(233, 68, 68, 0.2);
   border-radius: 16px;
+}
+
+/* ------------Perfect Place Section------------ */
+
+/* ------------Newsletter Section------------ */
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.newsletter-form {
+  flex: 40%;
+  padding: 30px 40px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+
+.newsletter-form h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.newsletter-form p {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.newsletter-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  flex: 60%;
+  /* width: 100%; */
+}
+
+.newsletter-img img {
+  background-size: contain;
+  height: 450px;
+  width: auto;
+}
+
+.input-and-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+
+.input-and-btn input[type="text"]{
+  padding: 16px 20px;
+  border: none;
+  background-color: rgba(19, 19, 24, 0.05);
+  width: 100%;
+}
+
+.input-one{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.subscribe-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange-color);
+  margin-top: 35px;
+  padding: 16px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: var(--white-color);
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.discount{
+  background-color: var(--orange-color);
+  /* margin-top: 35px; */
+  padding: 16px 30px;
+  border-radius: 5px;
+  border: none;
+  color: var(--white-color);
+  position: relative;
+  transform: rotate(-45deg);
+  bottom: 120px;
+
 }
