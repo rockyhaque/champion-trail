@@ -179,6 +179,12 @@
   .footer-container{
     padding: 70px 0px;
   }
+
+  /* ---------Testimonial--------- */
+  .testimonial-cards {
+    flex-direction: column;
+    gap: 65px;
+  }
   
 
 

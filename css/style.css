@@ -337,6 +337,87 @@ main {
 
 /* ------------Perfect Place Section------------ */
 
+/* ------------Testimonials Section------------ */
+
+.testimonial-container {
+  margin-top: 100px;
+}
+.testimonial-text {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -30px;
+  /* margin-bottom: 40px; */
+}
+
+.testimonial-text-para {
+  margin: 60px 0px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.testimonial-card-one {
+  background-image: radial-gradient(
+    circle 369px at -2.9% 12.9%,
+    rgba(247, 234, 163, 1) 0%,
+    rgba(236, 180, 238, 0.56) 46.4%,
+    rgba(163, 203, 247, 1) 100.7%
+  );
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.testimonial-card-two {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(176, 229, 208, 1) 42%,
+    rgba(92, 202, 238, 0.41) 93.6%
+  );
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.testimonial-card-three {
+  background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.review-card:hover{
+  transform: perspective(1000px) rotateY(10deg) rotateX(5deg) scale(1.1);
+  filter: brightness(110%) saturate(130%); 
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 0 0 40px rgba(255, 255, 255, 0.5); 
+  border: 3px solid transparent;
+  
+}
+
+.testimonial-para {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.people-one img {
+  position: relative;
+  bottom: 60px;
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  border-radius: 30%;
+}
+
+.rating img {
+  height: 60px;
+  width: 60px;
+}
+
 /* ------------Newsletter Section------------ */
 
 .newsletter-container {
@@ -349,7 +430,7 @@ main {
   flex: 40%;
   padding: 30px 40px;
   border-radius: 16px;
-  border: 1px solid #FF5400;
+  border: 1px solid #ff5400;
 }
 
 .newsletter-form h4 {
@@ -383,22 +464,21 @@ main {
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  
 }
 
-.input-and-btn input[type="text"]{
+.input-and-btn input[type="text"] {
   padding: 16px 20px;
   border: none;
   background-color: rgba(19, 19, 24, 0.05);
   width: 100%;
 }
 
-.input-one{
+.input-one {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.subscribe-btn{
+.subscribe-btn {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -414,7 +494,7 @@ main {
   font-size: 16px;
 }
 
-.discount{
+.discount {
   background-color: var(--orange-color);
   /* margin-top: 35px; */
   padding: 16px 30px;
@@ -424,18 +504,15 @@ main {
   position: relative;
   transform: rotate(-45deg);
   bottom: 120px;
-
 }
-
-
 
 /* ------------>> Footer <<----------- */
 
-.footer-body-container{
+.footer-body-container {
   background: rgba(19, 19, 24, 0.05);
 }
 
-.footer-container{
+.footer-container {
   max-width: 1280px;
   margin: auto;
   text-align: center;
@@ -443,7 +520,7 @@ main {
   margin-top: 100px;
 }
 
-.footer-logo-container{
+.footer-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,17 +529,17 @@ main {
   gap: 10px;
 }
 
-.footer-para p{
+.footer-para p {
   margin: 25px 0;
 }
 
-.social-icon{
+.social-icon {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin: 25px 0 35px 25px ;
+  margin: 25px 0 35px 25px;
 }
 
-.copywrite{
+.copywrite {
   margin: 50px 0 0 0;
 }
