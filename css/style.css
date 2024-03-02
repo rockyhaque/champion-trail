@@ -265,3 +265,65 @@ main {
   background-image: url(../Images/Rectangle-10.png);
   flex: 60%;
 }
+
+/* -----------------Choose Us Section--------------- */
+
+.choose-us-container {
+  margin-top: 100px;
+}
+
+.choose-us-text {
+  text-align: center;
+}
+
+.choose-us-text p {
+  margin: 30px 0px;
+}
+
+.choose-us-cards img {
+  width: 64px;
+  height: 64px;
+}
+
+.card {
+  padding: 32px;
+}
+
+.choose-us-cards h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.choose-row-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.choose-card-one {
+  background-color: rgba(251, 181, 99, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.choose-card-one img {
+  margin-top: 30px;
+}
+
+.choose-card-two {
+  background-color: rgba(41, 206, 246, 0.05);
+  border-radius: 16px;
+}
+
+.choose-row-two {
+  margin-top: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+.choose-card-three {
+  background-color: rgba(233, 68, 68, 0.05);
+  border-radius: 16px;
+}

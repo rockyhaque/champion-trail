@@ -118,6 +118,22 @@
     margin-top: 10px;
   }
 
+  /* ------------------Choose Us Section---------------------- */
+  .choose-row-one {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card{
+    padding: 32px;
+  }
+
+  .choose-row-two {
+    width: auto;
+    margin: 0px 25px;
+  }
+  
+
 
 }
 
@@ -207,5 +223,5 @@
     border-radius: 15px;
   }
 
-  /* ------------------Destination Section---------------------- */
+  /* ------------------Choose Us Section---------------------- */
 }
