@@ -26,13 +26,13 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--orange-color);
-  padding: 16px 30px;
+  padding: 10px 28px;
   border-radius: 8px;
   cursor: pointer;
   border: none;
   color: var(--white-color);
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -336,6 +336,85 @@ main {
   border-radius: 16px;
 }
 
+/* ------------Deal Section------------ */
+
+.deal-container {
+  margin-top: 100px;
+}
+
+.deal-text {
+  text-align: center;
+}
+
+.deal-text-para {
+  margin: 30px 0px;
+}
+
+.deal-card-container-one {
+  background-image: url(../Images/Group-39.png);
+  justify-content: end;
+}
+.deal-card-container-two {
+  background-image: url(../Images/Group-40.png);
+  justify-content: start;
+}
+.deal-card-container-three {
+  background-image: url(../Images/Group-39.png);
+  justify-content: end;
+}
+
+.deal-card-container-one,
+.deal-card-container-two,
+.deal-card-container-three{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.deal-card-one {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 50px;
+  margin: 20px 40px;
+  width: 579px;
+  height: 300px;
+}
+
+.card-glance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-glance div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.card-info-title{
+  font-size: 20px;
+}
+
+.card-info-para{
+  margin: 15px 0px;
+}
+
+.price{
+  margin-bottom: 15px;
+  color: var(--orange-color);
+}
+
+
+
 /* ------------Perfect Place Section------------ */
 
 .place-container {
@@ -362,11 +441,11 @@ main {
   margin-left: 28px;
 }
 
-.place-list-items li{
+.place-list-items li {
   margin-bottom: 18px;
 }
 
-.place-video{
+.place-video {
   width: 50%;
   margin: auto;
 }
@@ -419,17 +498,21 @@ main {
   border-radius: 5px;
 }
 .testimonial-card-three {
-  background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+  background-image: radial-gradient(
+    circle farthest-corner at 1.5% 1.4%,
+    rgba(159, 227, 255, 1) 0%,
+    rgba(255, 177, 219, 1) 100.2%
+  );
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
-.review-card:hover{
+.review-card:hover {
   transform: perspective(1000px) rotateY(10deg) rotateX(5deg) scale(1.1);
-  filter: brightness(110%) saturate(130%); 
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 0 0 40px rgba(255, 255, 255, 0.5); 
+  filter: brightness(110%) saturate(130%);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1),
+    0 0 40px rgba(255, 255, 255, 0.5);
   border: 3px solid transparent;
-  
 }
 
 .testimonial-para {
@@ -525,7 +608,7 @@ main {
   border: none;
   color: var(--white-color);
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .discount {
