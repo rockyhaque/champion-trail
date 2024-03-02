@@ -32,7 +32,8 @@ body {
   border: none;
   color: var(--white-color);
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .heading {
@@ -337,6 +338,39 @@ main {
 
 /* ------------Perfect Place Section------------ */
 
+.place-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.place-text {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.place-text div {
+  margin-top: 20px;
+}
+
+.place-text p {
+  line-height: 40px;
+}
+
+.place-list-items {
+  margin-left: 28px;
+}
+
+.place-list-items li{
+  margin-bottom: 18px;
+}
+
+.place-video{
+  width: 50%;
+  margin: auto;
+}
+
 /* ------------Testimonials Section------------ */
 
 .testimonial-container {
@@ -491,7 +525,7 @@ main {
   border: none;
   color: var(--white-color);
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .discount {

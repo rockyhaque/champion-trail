@@ -135,6 +135,24 @@
 
   /* ------------Perfect Place Section------------ */
 
+  .place-container{
+    flex-direction: column;
+  }
+
+  .place-text {
+    width: 100%;
+    margin: auto;
+  }
+
+  .place-video{
+    width: 100%;
+  }
+
+  .place-video video {
+    width: 100%;
+    height: auto;
+  }
+
 
 
   /* ------------Newsletter Section------------ */
@@ -278,7 +296,23 @@
 
   /* ------------Perfect Place Section------------ */
 
+  .place-container{
+    flex-direction: column;
+  }
 
+  .place-text {
+    width: 100%;
+    margin: auto;
+  }
+
+  .place-video{
+    width: 100%;
+  }
+
+  .place-video video {
+    width: 100%;
+    height: auto;
+  }
 
 
   /* ------------Newsletter Section------------ */
