@@ -1,4 +1,4 @@
-/* Mobile Device Responsive */
+/*------------->> Mobile Device Responsive<<------------- */
 
 @media (max-width: 600px) {
   /*----------------- Header Section start-------------- */
@@ -15,9 +15,10 @@
   }
 
   /* -----------------Explore Section------------- */
-  main{
+  main {
     padding: 0px 25px;
   }
+
   .explore-container-text {
     padding: 20px 0px;
   }
@@ -71,33 +72,56 @@
     margin-top: 50px;
   }
 
-  .tour-text{
+  .tour-text {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  .tour-list-items{
+  .tour-list-items {
     margin-left: 20px;
   }
-  
-  .tour-img{
+
+  .tour-img {
     width: 100%;
     margin: auto;
   }
-  
-  .tour-img img{
+
+  .tour-img img {
     height: 400px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
   }
+
+  /* ------------------Destination Section---------------------- */
+
+  .malives-indonesia,
+  .srilanka-america-kashmir,
+  .bangladesh-bandarban{
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .maldives,
+  .indonesia,
+  .srilanka,
+  .america,
+  .kashmir,
+  .bangladesh,
+  .bandarban{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+
 }
 
-
-
-/*------------->> Mobile Device Responsive<<---------------- */
-
-
+/*------------->> Tablet Device Responsive<<---------------- */
 
 @media (min-width: 601px) and (max-width: 992px) {
   header {
@@ -155,33 +179,33 @@
     margin-right: 8px;
   }
 
-    /*-------------------- Popular Tour Section-------------- */
+  /*-------------------- Popular Tour Section-------------- */
 
-    
-    .popular-tour-container {
-      flex-direction: column;
-      margin-top: 50px;
-    }
-  
-    .tour-text{
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  
-    .tour-list-items{
-      margin-left: 20px;
-    }
-    
-    .tour-img{
-      width: 100%;
-      margin: auto;
-    }
-    
-    .tour-img img{
-      height: 400px;
-      width: 100%;
-      object-fit: cover;
-      border-radius: 15px;
-    }
+  .popular-tour-container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
 
+  .tour-text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .tour-list-items {
+    margin-left: 20px;
+  }
+
+  .tour-img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .tour-img img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  /* ------------------Destination Section---------------------- */
 }

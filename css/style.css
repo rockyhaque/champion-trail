@@ -35,6 +35,11 @@ body {
   font-size: 16px;
 }
 
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
 /*----------------- Header Section start-------------- */
 
 header {
@@ -159,30 +164,104 @@ main {
   gap: 40px;
 }
 
-.tour-text{
+.tour-text {
   width: 50%;
   margin-bottom: 30px;
-  
 }
 
-.tour-text div{
+.tour-text div {
   margin-top: 20px;
 }
 
-.tour-text p{
+.tour-text p {
   line-height: 40px;
 }
 
-.tour-list-items{
+.tour-list-items {
   margin-left: 28px;
 }
 
-.tour-img{
+.tour-img {
   width: 50%;
 }
 
-.tour-img img{
+.tour-img img {
   height: 550px;
   width: auto;
 }
 
+/* ------------------Destination Section---------------------- */
+
+.destination-container {
+  margin-top: 100px;
+}
+.destination-text {
+  text-align: center;
+}
+
+.destination-text p {
+  margin: 30px 0px;
+}
+
+.destination-img {
+  text-align: center;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.malives-indonesia,
+.srilanka-america-kashmir,
+.bangladesh-bandarban {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.america,
+.kashmir,
+.bangladesh,
+.bandarban {
+  margin: 0px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0px;
+  width: 480px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.maldives {
+  background-image: url(../Images/Rectangle-5.png);
+  flex: 50%;
+}
+.indonesia {
+  background-image: url(../Images/Rectangle-8.png);
+  flex: 50%;
+}
+
+.srilanka {
+  background-image: url(../Images/Rectangle-6.png);
+  flex: 30%;
+}
+.america {
+  background-image: url(../Images/Rectangle-7.png);
+  flex: 40%;
+}
+.kashmir {
+  background-image: url(../Images/Rectangle-9.png);
+  flex: 30%;
+}
+.bangladesh {
+  background-image: url(../Images/Rectangle-11.png);
+  flex: 40%;
+}
+.bandarban {
+  background-image: url(../Images/Rectangle-10.png);
+  flex: 60%;
+}
