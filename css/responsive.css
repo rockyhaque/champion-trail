@@ -2,6 +2,11 @@
 
 @media (max-width: 600px) {
   /*----------------- Header Section start-------------- */
+  .heading{
+    font-size: 32px;
+    font-weight: 700;
+  }
+
   header {
     padding: 0px 25px;
   }
@@ -37,9 +42,9 @@
   }
 
   .explore-form {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    margin: 0px 100px;
+    margin: 0px 50px;
     border-radius: 8px;
     gap: 10px;
   }
