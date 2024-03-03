@@ -145,6 +145,18 @@ main {
   border: none;
 }
 
+.down-arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-icon{
+  position: relative;
+  right: 30px;
+  color: var(--black-color);
+}
+
 .explore-input-btn {
   display: flex;
   justify-content: center;
@@ -346,8 +358,10 @@ main {
   text-align: center;
 }
 
+
 .deal-text-para {
   margin: 30px 0px;
+  padding: 10px 0px;
 }
 
 .deal-card-container-one {
