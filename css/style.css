@@ -100,6 +100,14 @@ header {
   list-style: none;
 }
 
+
+
+.nav-list li a {
+  text-decoration: none;
+  color: #223344;
+  font-weight: 600;
+}
+
 .nav-list li a:hover {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   font-weight: 500;
@@ -107,11 +115,6 @@ header {
   background-clip: text;
   color: transparent;
   transition: color 0.3s ease-in-out;
-}
-
-.nav-list li a {
-  text-decoration: none;
-  color: #223344;
 }
 
 .nav-icon {
@@ -153,7 +156,8 @@ main {
 }
 
 .explore-container-text p {
-  padding: 20px 0px;
+  padding: 25px 0px;
+  margin-bottom: 20px;
 }
 
 .explore-form {
@@ -181,7 +185,12 @@ main {
 
 .arrow-icon {
   position: relative;
-  right: 30px;
+  right: 40px;
+  /* left: 200px;
+  top: 200px;
+  bottom: 0px; */
+
+  
   color: var(--dark-rgb);
 }
 
@@ -433,6 +442,10 @@ main {
   align-items: center;
 }
 
+.card-glance i{
+  color: var(--orange-color);
+}
+
 .card-glance div {
   display: flex;
   justify-content: space-around;
@@ -443,6 +456,7 @@ main {
 
 .card-info-title {
   font-size: 20px;
+  font-weight: 800;
 }
 
 .card-info-para {

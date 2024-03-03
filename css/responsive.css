@@ -54,6 +54,12 @@
     margin-bottom: 12px;
   }
 
+  .arrow-icon {
+    position: absolute;
+    right: 110px;
+  }
+
+
   .explore-form input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -222,6 +228,7 @@
   .newsletter-img img {
     height: 250px;
     width: auto;
+    
   }
 
   .input-one {
@@ -248,13 +255,18 @@
     flex-direction: column;
     gap: 65px;
   }
+
+  .footer-container{
+    padding: 30px 10px;
+  }
 }
 
 /*------------->> Tablet Device Responsive<<---------------- */
 
 @media (min-width: 601px) and (max-width: 992px) {
-  header {
-    padding: 0px 20px;
+  header,
+  main {
+    padding: 0px 40px;
   }
 
   /* -----------------Explore Section------------- */
