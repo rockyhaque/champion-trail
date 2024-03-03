@@ -41,6 +41,25 @@ body {
   font-weight: 800;
 }
 
+.heading:hover{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+  background-clip: text;
+  color: transparent;
+  transition: color 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
 /*----------------- Header Section start-------------- */
 
 header {
@@ -79,6 +98,15 @@ header {
 
 .nav-list li {
   list-style: none;
+}
+
+.nav-list li a:hover {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-weight: 500;
+  cursor: pointer;
+  background-clip: text;
+  color: transparent;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav-list li a {
@@ -145,16 +173,16 @@ main {
   border: none;
 }
 
-.down-arrow{
+.down-arrow {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.arrow-icon{
+.arrow-icon {
   position: relative;
   right: 30px;
-  color: var(--black-color);
+  color: var(--dark-rgb);
 }
 
 .explore-input-btn {
@@ -162,7 +190,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: var(--orange-color);
-  padding: 16px 30px;
+  padding: 16px 20px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -358,7 +386,6 @@ main {
   text-align: center;
 }
 
-
 .deal-text-para {
   margin: 30px 0px;
   padding: 10px 0px;
@@ -379,7 +406,7 @@ main {
 
 .deal-card-container-one,
 .deal-card-container-two,
-.deal-card-container-three{
+.deal-card-container-three {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -406,7 +433,7 @@ main {
   align-items: center;
 }
 
-.card-glance div{
+.card-glance div {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -414,20 +441,29 @@ main {
   margin-bottom: 15px;
 }
 
-.card-info-title{
+.card-info-title {
   font-size: 20px;
 }
 
-.card-info-para{
+.card-info-para {
   margin: 15px 0px;
 }
 
-.price{
+.price {
   margin-bottom: 15px;
   color: var(--orange-color);
 }
 
+.package-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
 
+.package-btn {
+  padding: 15px;
+}
 
 /* ------------Perfect Place Section------------ */
 
